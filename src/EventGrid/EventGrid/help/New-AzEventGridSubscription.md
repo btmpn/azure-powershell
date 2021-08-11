@@ -586,7 +586,7 @@ Accept wildcard characters: False
 ```
 
 ### -MaxEventsPerBatch
-The maximum number of events in a batch. This value must be between 1 and 5000. This parameter is valid when Endpint Type is webhook only.
+The maximum number of events in a batch. This value must be between 1 and 5000. This parameter is valid when Endpoint Type is webhook only.
 
 ```yaml
 Type: System.Int32
@@ -613,7 +613,7 @@ Accept wildcard characters: False
 ```
 
 ### -PreferredBatchSizeInKiloBytes
-The preferred batch size in kilobytes. This value must be between 1 and 1024. This parameter is valid when Endpint Type is webhook only.
+The preferred batch size in kilobytes. This value must be between 1 and 1024. This parameter is valid when Endpoint Type is webhook only.
 
 ```yaml
 Type: System.Int32
